@@ -200,12 +200,12 @@ int main(int argc, char** argv)
     fprintf(arq,"<head>\n");
     fprintf(arq,"</head>\n");
     fprintf(arq,"<body style=\"background:black;\" leftmargin=0; topmargin=0 >");
-    fprintf(arq,"<style> pre { color: white; font-family:Courier; font-size:8px; letter-spacing:1px}</style>");
+    fprintf(arq,"<style> pre { color: white; font-family:Courier; font-size:12px; letter-spacing:1px}</style>");
 	fprintf(arq,"<pre>");
-	for(int i=0; i<pic.height; i++) 
+	for(int i=0; i<pic.height/4; i++) 
 	{
 		
-		for(int j=0; j<pic.width; j++) 
+		for(int j=0; j<pic.width/2; j++) 
 		{
 			
 			// podemos passar qualquer parametro, pois eles são iguais
